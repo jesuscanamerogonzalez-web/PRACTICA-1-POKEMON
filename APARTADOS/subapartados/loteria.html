@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>POKEMON-DATACENTER-LOTERIA</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="../../CSS/sorteospk.css">
+    </head>
+    
+    <body background="../../imagenes/LOTERIA.jpeg">
+        
+        <div style="background-color: yellow;">
+        <br/>
+        <h1 align="center"> BIENVENIDO A NUESTRO SORTEO DE VERANO </h1>
+        <br/>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+
+        <form method="post" action="#">
+            
+                
+                <table with="55%" height="250px" cellspacing="10px" align="center" style="background-color: yellowgreen;">
+       
+                <thead>
+                    <tr>
+                        <td align="center" style="color:white" colspan="4"><b font-size="10px">TARGETA DE ENTRENADOR</b></td>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="nombre">NOMBRE:</label>
+                            </td> 
+
+                            <td>
+                                <input type="text" name="nombre" id="nombre" size="45px" placeholder="escribe aquí tu nombre entrenador"/>
+                            </td>
+
+                            <td>
+                                <label for="apellidos">APELLIDOS:</label>
+                            </td>
+
+                            <td>
+                                <input type="text" name="apellidos" id="apellidos" value="apellidos" size="25px"/>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="contra">CONTRASEÑA DE USUARIO:</label>
+                            </td>
+                            <td>
+                                <input type="password" name="contra" id="contra" value="contra" size="15px" maxlength="3"/>
+                            </td>
+
+                            <td valign="bottom">
+                                <label for="opinion">OPINIÓN:</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" valign="bottom">
+                                <label for="sexo" >GÉNERO:<label>
+                            </td>
+
+                            <td colspan="2">
+                                <textarea name="opinion" width="20px" height="20px"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="sexo" value="hombre" id=hombre/>Hombre<br/>
+                                <input type="radio" name="sexo" value="mujer" id=mujer/>Mujer<br/>
+                            </td>
+                            <td align="center">
+                                <img alt="Negro" height="200px" width="35%" src="../../imagenes/Blanconoegro1.png"/>
+                            </td>
+                            <td align="center" colspan="2">
+                                <img alt="Blanca" height="200px" width="35%" src="../../imagenes/Blanconoegro2.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" rowspan="2" colspan="2">
+                                <input type="submit" width="50px" height="50px" value="Enviar" name="Enviar"/>
+                            </td>
+                            <td align="center" rowspan="2" colspan="2">
+                                <input type="reset" width="50px" height="50px" value="borrar" name="Borrar"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+        </form>      
+    
+
+    </body>
+</html>
