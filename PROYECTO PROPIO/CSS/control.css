@@ -1,0 +1,98 @@
+
+body {
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: bottom ;
+    margin:0px;
+}
+
+ p.intro {
+    margin-left: 29% ;
+    margin-right: 29% ;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+ div.apartadoinicio {
+    padding:5px;
+    height: 25%;
+    width: 100%;
+}
+
+div.apartadoinicio ul{
+    margin:0px;
+    list-style-type: none;
+    overflow:hidden;
+    padding:5px;
+    width:100%;
+    height: 74px;
+}
+
+div.apartadoinicio ul li.izquierda{
+    float:left;
+    height:78px;
+    width:176px;
+}
+
+            div.apartadoinicio ul li.izquierda table{
+                height:70px;
+                width:100%;
+                padding:5px;
+                border:solid 5px black;
+                border-radius: 25px 25px 25px 25px;
+            }
+                        div.apartadoinicio ul li.izquierda table tbody tr td {
+                          float:left;
+                          background-image: url("../imagenes/pokemon.png");
+                          background-size:138px,22px;
+                          background-repeat: no-repeat;
+                          height:50px;
+                          width:100%;
+                       }
+
+
+
+div.apartadoinicio ul li.derecha{
+    float:right;
+    margin:25px;
+
+}
+
+div.apartadoinicio ul li.derecha a{
+    font-size: 15px;
+    color:black;
+}
+
+
+
+
+                div.apartadoinicio ul li.derechaprimero a{
+                    font-size: 15px;
+                    color:black;
+                }
+
+
+
+div.apartado table{
+    background:"imagenes/apartado.png";
+    background-size:"cover";
+    
+}
+
+div.apartado table tr td{
+    font-size: 15px;
+}
+
+
+div.apartadoinicio ul li.derechaprimero{
+    float:right;
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left:25px;
+    margin-right:45px;
+    font-size: 15px;
+    color:black;
+    
+}
+
+
