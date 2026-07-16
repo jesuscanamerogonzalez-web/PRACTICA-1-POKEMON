@@ -12,6 +12,11 @@ const mixto = [42, "Hola", true, { nombre: "Ana" }];
 
 
 
+
+
+
+
+
 SINTAXIS Y ATRIBUTOS
 
 let numeros = [1, 2, 3];
@@ -88,3 +93,6 @@ Aquí tienes las funciones y métodos esenciales divididos por su tarea específ
         botonEnviar.addEventListener('click', () => {
             alert("Formulario enviado con éxito");
         });
+
+
+
