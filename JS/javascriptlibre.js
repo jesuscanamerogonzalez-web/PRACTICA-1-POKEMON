@@ -1,3 +1,42 @@
+//JAVASCRIPT
+
+
+//OPERACIONES MATEMATICAS CON VARIABLES Y CONSTANTES BASICAS
+
+              //SUMAR VARIABLES Y CONSTANTES
+                              const valor1 =1
+                              const valor2=5
+                              let suma1= valor1 + valor2
+                              return (suma1)
+                              console.log(suma1)
+
+              //RESTAR VARIABLES Y CONSTANTES
+                              const valor1 =1
+                              const valor2=5
+                              let resta= valor1 - valor2
+                              return (resta1)
+                              console.log(resta1)
+
+
+              //MULTIPLICAR VARIABLES Y CONSTANTES
+
+                              const valor1 =1
+                              const valor2=5
+                              let multi1= valor1 * valor2
+                              return (multi1)
+                              console.log(multi1)
+
+
+              //DIVIDIR VARIABLES Y CONSTANTES
+
+                            const valor1 =1
+                            const valor2=5
+                            let div1= valor1 / valor2
+                            return (div1)
+                            console.log(div1)
+
+
+
 //ARRAY + propiedades (variables que tienen varios valores listados)
 
               //con numeros y letras
@@ -80,7 +119,6 @@
             console.log(arraypararellenar);
 
             //PARA BORRAR TODO SIMPLEMENTE HAY QUE DECLARAR LA VARIABLE SIN NADA
-
             arraypararellenar=[]
             console.log(arraypararellenar)
 

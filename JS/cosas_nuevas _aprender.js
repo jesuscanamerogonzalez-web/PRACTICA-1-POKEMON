@@ -1,3 +1,37 @@
+JAVASCRIPT EN ESTE DOCUMENTO JS SE EXPLICAN LAS FUNCIONES OPERACIONES Y PROPIEDADES BASICAS DE JAVASCRIPT Y SU SINTAXIS
+
+
+//DECLARAR VARIABLES Y CONSTANTES
+
+En JavaScript, una variable es un contenedor que almacena un valor que puede cambiar durante la ejecución del programa mientras que una constante es un contenedor que almacena un valor que no puede cambiar. Puedes declarar variables y constantes utilizando las palabras clave `let`, `const` y `var`. La elección entre ellas depende del comportamiento que desees para la variable.
+Para declararla y mostrarla en consola se hace de la siguiente manera:
+
+APARTE DE ESTO PONIENDO UN IGUAL SE LE PUDE ASIGNAR UN VALOR A LA VARIABLE O CONSTANTE AUNQUE ESTO ES MAS PROPIO DE LAS CONSTANTES YA QUE LAS VARIABLES PUEDEN CAMBIAR SU VALOR Y LAS CONSTANTES NO.
+
+const constante1 = "Hola, soy una constante";
+console.log(constante1);
+
+var variable1 = "Hola, soy una variable";
+console.log(variable1);
+
+let variable2 = "Hola, soy otra variable";
+console.log(variable2);
+
+//OPERACIONES MATEMATICAS CON VARIABLES Y CONSTANTES BASICAS
+
+              //SUMAR VARIABLES Y CONSTANTES
+        
+
+
+
+
+
+
+
+
+
+
+
 ARRAY
 
 Un array (o arreglo) en JavaScript es una estructura de datos que permite almacenar múltiples valores en una sola variable. 
