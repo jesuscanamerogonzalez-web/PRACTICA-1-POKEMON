@@ -20,7 +20,6 @@ console.log(variable2);
 //OPERACIONES MATEMATICAS CON VARIABLES Y CONSTANTES BASICAS
 
               //SUMAR VARIABLES Y CONSTANTES
-        
 
 
 
@@ -30,6 +29,49 @@ console.log(variable2);
 
 
 
+              //RELLENAR
+
+
+              //CONDICIONALES IF ELSE Y SWITCH
+
+              IF ELSE ES EL MAS BASICO DE LOS CONDICIONALES Y ESTE VALOR NO ES IGUAL/MAYOR/MENOR O DISTINTO DE ESTE EN VEZ DE DECIR ESTO DIRA ESTO OTRO
+
+              let num1 = 10;
+              if (num1 > 5) {
+              console.log("El número es mayor que 5");
+              } else {
+              console.log("El número es menor o igual a 5");
+              }
+
+              SWITCH ES UN CONDICIONAL QUE SE UTILIZA PARA COMPARAR UNA VARIABLE O EXPRESIÓN CON VARIOS VALORES POSIBLES. CADA VALOR POSIBLE SE DEFINE EN UN BLOQUE CASE, Y SI LA VARIABLE O EXPRESIÓN COINCIDE CON ESE VALOR, SE EJECUTA EL CÓDIGO DENTRO DE ESE BLOQUE. SI NINGUNO DE LOS CASE COINCIDE, SE PUEDE INCLUIR UN BLOQUE DEFAULT QUE SE EJECUTARÁ COMO OPCIÓN POR DEFECTO.
+              let dia = "martes";
+              switch (dia) {
+              case "lunes":
+              console.log("Hoy es lunes");
+              break;
+              case "martes":
+              console.log("Hoy es martes");
+              break;
+              default:
+              console.log("No es un día válido");
+              }
+
+                //BUCLES WHILE Y FOR
+
+                WHILE CON SU ESTRUCTURA (condición) SE UTILIZA PARA REPETIR UN BLOQUE DE CÓDIGO MIENTRAS UNA CONDICIÓN SEA VERDADERA. SE EJECUTA EL BLOQUE DE CÓDIGO Y LUEGO SE EVALÚA LA CONDICIÓN.
+
+                let contador = 1;
+                while (contador <= 3) {
+                console.log(contador); // Imprime 1, luego 2, luego 3
+                contador++; // Si no incrementas esto, el bucle será infinito y bloqueará tu navegador
+                }
+
+
+                FOR CON SU ESTRUCTURA (inicialización; condición; actualización) SE UTILIZA PARA REPETIR UN BLOQUE DE CÓDIGO UN NÚMERO DETERMINADO DE VECES. SE INICIALIZA UNA VARIABLE, SE EVALÚA LA CONDICIÓN Y SE ACTUALIZA LA VARIABLE EN CADA ITERACIÓN.
+
+                for (let i = 1; i <= 3; i++) {
+                console.log(i); // Imprime 1, luego 2, luego 3
+                }
 
 
 ARRAY
@@ -64,7 +106,7 @@ DOM DOCUMENT OBJECT MODELMANIPULACION DE OBJETOS DE HMTL Y CSS
 
 Para interactuar con HTML y CSS desde JavaScript, el navegador nos proporciona el DOM (Document Object Model). Este modelo traduce la página web en un árbol de objetos que JavaScript puede modificar en tiempo real.
 
-Aquí tienes las funciones y métodos esenciales divididos por su tarea específica:
+Funciones y métodos esenciales divididos por su tarea específica:
 
 1. Seleccionar elementos (Buscar en el HTML)Antes de modificar algo, debes decirle a JavaScript qué elemento quieres cambiar.
 
